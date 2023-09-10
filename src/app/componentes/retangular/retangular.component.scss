@@ -1,0 +1,20 @@
+.componente-retangular {
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  height: 205px;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-radius: 50px;
+  background: #FFF;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.image-container{
+  width: 168px;
+  height: 40px;
+  flex-shrink: 0;
+  
+}

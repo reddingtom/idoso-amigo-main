@@ -1,0 +1,31 @@
+.componente-retangular {
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-radius: 50px;
+  background: #FFF;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 10vh;
+
+}
+
+.image-container{
+  min-width: 50px;
+width: 60%;
+max-width: 100px;
+}
+
+.icon-text{
+  
+  color: #696969;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+
+}

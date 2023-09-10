@@ -1,0 +1,73 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">detalhechat</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+
+
+  <a [routerLink]="['/chat']" class="router" style="font-size: 24px;" >
+    <ion-fab slot="fixed" vertical="end" horizontal="start">
+      <ion-fab-button size="small" >
+        <ion-icon name="arrow-back"></ion-icon>
+
+      </ion-fab-button>
+    </ion-fab>
+  </a>
+
+  <div class="profile-header">
+    <div class="profile-info">
+      <h2>Nome do Usuário</h2>
+      <p>Última vez online: 2 horas atrás</p>
+    </div>
+    <div class="profile-image">
+      <ion-avatar>
+        <img src="assets/img/perfil.png" alt="Imagem de perfil">
+      </ion-avatar>
+    </div>
+  </div>
+  <ion-item-divider class="divider"></ion-item-divider>
+
+  <div class="chat-container">
+    <div class="message user-message">
+      Olá, como posso ajudar?
+    </div>
+    <div class="message bot-message">
+      Olá! Estou aqui para responder às suas perguntas.
+    </div>
+    <div class="message user-message">
+      Tenho uma pergunta sobre um produto.
+    </div>
+    <!-- Adicione mais mensagens aqui -->
+  </div>
+
+
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button >
+        <ion-icon slot="icon-only" name="attach"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-input  placeholder="Digite sua mensagem..."></ion-input>
+    <ion-buttons slot="end">
+      <ion-button >
+        <ion-icon slot="icon-only" name="mic"></ion-icon>
+      </ion-button>
+      <ion-button >
+        Enviar
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
+
+
+
+

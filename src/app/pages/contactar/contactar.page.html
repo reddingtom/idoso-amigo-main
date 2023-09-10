@@ -1,0 +1,69 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content class="ion-padding" [fullscreen]="true">
+  <ion-header collapse="condense">
+  </ion-header>
+
+  <a [routerLink]="['/buscar']" class="router" style="font-size: 24px;" >
+    <ion-fab slot="fixed" vertical="top" horizontal="start">
+      <ion-fab-button size="small">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </a>
+
+
+  =
+ <div class="image-container">
+  <img class="img" src="assets/img/perfil.png" alt="Imagem de Perfil">
+</div>
+<!-- Dados do perfil -->
+<div class="background-box">
+<ion-list class="item">
+  <ion-item class="item1">
+    <ion-label>Nome</ion-label>
+    <ion-text> nome </ion-text>
+  </ion-item>
+  <ion-item>
+    <ion-label>Email</ion-label>
+    <ion-text> email </ion-text>
+  </ion-item>
+  <ion-item>
+    <ion-label>Telefone</ion-label>
+    <ion-text> telefone </ion-text>
+  </ion-item>
+  <ion-item>
+    <ion-label>Endereço</ion-label>
+    <ion-text> endereco </ion-text>
+  </ion-item>
+  <ion-item>
+    <ion-label>Habilidades Especiais</ion-label>
+    <ion-text> habilidades </ion-text>
+  </ion-item>
+  <ion-item>
+    <ion-label>Disponibilidade</ion-label>
+    <ion-text> disponibilidade </ion-text>
+  </ion-item>
+  <ion-item>
+    <ion-label>Experiência</ion-label>
+    <ion-text> experiencia </ion-text>
+  </ion-item>
+  <ion-item>
+    <ion-label>Certificados</ion-label>
+    <ion-text> certificados </ion-text>
+  </ion-item>
+  <ion-item>
+    <ion-label>Remuneração</ion-label>
+    <ion-text> remuneracao </ion-text>
+  </ion-item>
+</ion-list>
+</div>
+
+<ion-row class="ion-justify-content-center">
+  <a [routerLink]="['/detalhechat']">
+<ion-button class="contactar" >contactar</ion-button>
+</a>
+</ion-row>
+
+</ion-content>

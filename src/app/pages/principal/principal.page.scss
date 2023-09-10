@@ -1,0 +1,80 @@
+ion-content {
+
+  --background: #4F8592;
+}
+.component{
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.2);
+  height: 50px;
+}
+
+.image-container{
+
+
+  width: 229px;
+  height: 66px;
+  flex-shrink: 0;
+  margin-top: 70px;
+}
+
+
+.avatar-container {
+  position: relative;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.avatar-image {
+  width: 76px;
+  height: 66px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.white-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+#text{
+
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 3%;
+}
+
+
+.imagem-com-fundo {
+  background-color: white; /* Cor de fundo branca */
+  display: inline-block; /* Torna o elemento inline para se ajustar à imagem */
+  padding: 10px; /* Espaçamento interno ao redor da imagem */
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+
+.img{
+width: 25px;
+height: auto;
+
+
+}

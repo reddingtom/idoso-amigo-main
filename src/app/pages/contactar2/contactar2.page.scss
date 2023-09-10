@@ -1,0 +1,70 @@
+/* No arquivo perfil.page.scss */
+.image-container {
+
+  position: absolute;
+  margin-left: 26%;
+  margin-top: 3%;
+}
+
+
+.img{
+
+
+  width: 171px;
+  height: 171px;
+  border: 2px solid #D9D9D9; /* Espessura da borda e cor branca */
+  border-radius: 50px; /* Borda arredondada */
+  background-color: white;
+
+}
+.contactar{
+
+  width: 167px;
+  height: 40px;
+margin-top: 40px;
+
+}
+ion-content {
+
+  --background: #4F8592;
+}
+
+ion-button {
+  --background: white;
+  --border-radius: 22px;
+  --box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  --color: black;
+  --margin: 20px auto;
+  --padding: 10px;
+  --text-align: center;
+  --display: block;
+
+}
+
+
+/* No arquivo perfil.page.scss */
+.background-box {
+  background-color: white; /* Cor de fundo branca */
+  padding: 20px; /* Espaçamento interno para separar os dados da borda da caixa */
+  border-radius: 50px; /* Borda arredondada para a caixa */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque à caixa */
+  margin-top: 34%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+ion-fab-button::part(native) {
+  background-color: #75A975;
+
+}
+
+.item1{
+
+  margin-top: 23%;
+}

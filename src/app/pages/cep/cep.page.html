@@ -1,0 +1,89 @@
+<ion-header [translucent]="true">
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">cep</ion-title>
+    </ion-toolbar>
+    </ion-header>
+
+    <a [routerLink]="['/person']" class="router" style="font-size: 24px;" >
+    <ion-fab slot="fixed" vertical="end" horizontal="start">
+      <ion-fab-button size="small">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+    </a>
+
+    <ion-row class="ion-justify-content-center">
+    <div class="image-container">
+      <img src="assets/img/logo2.png" alt="logo" class="logo">
+    </div>
+    </ion-row>
+
+    <ion-row class="ion-justify-content-center">
+
+    <p class="endereco" shape="round" fill="outline">Registro Endereço</p>
+
+    </ion-row>
+
+    <div class="ion-padding">
+
+    <ion-row>
+
+      <ion-col size="6">
+
+
+        <ion-input class="cep" label="Cep:" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Cep"></ion-input>
+      </ion-col>
+      <ion-col size="6">
+
+
+        <ion-input class="cidade" label="Cidade:" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Cidade"></ion-input>
+
+      </ion-col>
+    </ion-row>
+    </div>
+
+
+    <ion-grid>
+      <ion-row>
+
+        <ion-col push-sm="6"> <ion-input class="bairro" label="Bairro:" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Bairro"></ion-input></ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+    <div class="ion-padding">
+
+   <ion-row>
+
+    <ion-col ion-col size="6">
+      <ion-input class="lote" label="Lote:" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Lote"></ion-input>
+
+      </ion-col>
+      <ion-col size="6">
+      <ion-input class="quadra" label="Quadra:" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Quadra"></ion-input>
+
+      </ion-col>
+      </ion-row>
+      </div>
+
+
+
+      <ion-grid>
+        <ion-row>
+
+          <ion-col push-sm="6"> <ion-input class="referencia" label="Referencia:" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Referencia"></ion-input></ion-col>
+        </ion-row>
+      </ion-grid>
+
+    <ion-row class="ion-justify-content-center">
+      <a [routerLink]="['/iam']">
+    <ion-button class="proximo" >Proximo</ion-button>
+    </a>
+    </ion-row>
+
+</ion-content>

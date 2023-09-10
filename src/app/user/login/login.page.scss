@@ -1,0 +1,81 @@
+.image-container{
+  width: 134px;
+  height: 118.386px;
+  flex-shrink: 0;
+
+}
+
+.logo{
+
+  background:cover no-repeat;
+  margin-top: 75px;
+
+
+}
+.senha, .login{
+
+
+  padding: 10px;
+  margin: 10px auto;
+  width: 302px;
+  height: 47px;
+  flex-shrink: 0;
+
+}
+.login{
+
+  margin-top: 150px;
+}
+
+.login, .senha ion-input {
+  color: black;
+}
+
+ion-button {
+  --background: #75A975;
+  --border-radius: 22px;
+  --box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  --color: white;
+  --margin: 20px auto;
+  --padding: 10px;
+  --text-align: center;
+
+  --display: block;
+}
+
+.botaologin{
+
+  width: 167px;
+  height: 40px;
+
+
+}
+
+#text{
+
+color: #696969;
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+
+flex-shrink: 0;
+line-height: normal;
+
+width: auto;
+height: 33px;
+
+
+position: absolute;
+bottom: 0;
+
+}
+
+.divider{
+
+padding: 50px;
+
+}

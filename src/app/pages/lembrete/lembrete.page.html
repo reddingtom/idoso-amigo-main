@@ -1,0 +1,32 @@
+<ion-header [translucent]="true"> </ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">principal</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <a [routerLink]="['/principal']" class="router" style="font-size: 24px">
+    <ion-fab slot="fixed" vertical="end" horizontal="start">
+      <ion-fab-button size="small">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </a>
+
+  <div class="blue-background">
+    <ion-row class="ion-justify-content-center">
+      <a [routerLink]="['/agenda']">
+        <ion-button class="agenda">Agenda</ion-button>
+      </a>
+    </ion-row>
+
+    <ion-row class="ion-justify-content-center">
+      <a [routerLink]="['/lembrete']">
+        <ion-button class="lembrete">Lembretes</ion-button>
+      </a>
+    </ion-row>
+  </div>
+    <app-folter3></app-folter3>
+</ion-content>

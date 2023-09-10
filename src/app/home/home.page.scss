@@ -1,0 +1,68 @@
+ion-content {
+
+  --background: #4F8592;
+}
+
+#container {
+width: 375px;
+height: 667px;
+flex-shrink: 0;
+
+}
+
+
+.image-container {
+  width: 262px;
+  height: 232.28866577148438px;
+  top: 58px;
+  left: 56px;
+  box-shadow: -4px 4px 4px 0px #00000003;
+  margin-top: 58px;
+  margin-left: 56px;
+  margin-right: 57px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.logo {
+  background:cover no-repeat;
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.01);
+
+}
+
+#idosoamigo{
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+.idoso{
+  color: #75A975;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Amigo{
+  color: #C2D9DF;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+}
+
+.fundobranco{
+  width: 375px;
+  height: 375px;
+  flex-shrink: 0;
+  color: #FFF;
+  padding: 375;
+  margin-bottom: 292px;
+  position:absolute;
+}

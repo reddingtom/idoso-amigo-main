@@ -1,0 +1,59 @@
+<div class="componente-retangular">
+  <ion-grid>
+    <!-- Primeira linha -->
+    <ion-row justify-content-center>
+      <ion-col size="6" text-center>
+        <ion-card-content>
+          <ion-row class="ion-justify-content-center">
+            <div class="image-container">
+              <a [routerLink]="['/chat']">
+                <img src="assets/img/chat.png" alt="logo" class="logo" />
+              </a>
+            </div>
+          </ion-row>
+        </ion-card-content>
+
+        <p class="icon-text">(Buscar)</p>
+      </ion-col>
+      <ion-col size="6" text-center>
+        <ion-card-content>
+          <ion-row class="ion-justify-content-center">
+            <div class="image-container">
+              <a [routerLink]="['/buscar']">
+                <img src="assets/img/buscar.png" alt="logo" class="logo" />
+              </a>
+            </div>
+          </ion-row>
+        </ion-card-content>
+
+        <p class="icon-text">(Buscar)</p>
+      </ion-col>
+    </ion-row>
+
+    <!-- Segunda linha -->
+    <ion-row justify-content-center>
+      <ion-col size="6" text-center>
+        <ion-card-content>
+          <ion-row class="ion-justify-content-center">
+            <div class="image-container">
+              <img src="assets/img/agenda.png" alt="logo" class="logo" />
+            </div>
+          </ion-row>
+        </ion-card-content>
+
+        <p class="icon-text">(Agenda)</p>
+      </ion-col>
+      <ion-col size="6" text-center>
+        <ion-card-content>
+          <ion-row class="ion-justify-content-center">
+            <div class="image-container">
+              <img src="assets/img/perfil.png" alt="logo" class="logo" />
+            </div>
+          </ion-row>
+        </ion-card-content>
+
+        <p class="icon-text">(Perfil)</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>

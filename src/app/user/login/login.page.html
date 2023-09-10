@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+  </ion-header>
+  <ion-content>
+
+    <ion-content class="ion-padding">
+      <ion-row class="ion-justify-content-center">
+      <div class="image-container">
+        <img src="assets/img/logo.png" alt="logo" class="logo">
+      </div>
+    </ion-row>
+
+    <ion-input class="login" label="Login" label-placement="floating" shape="round" fill="outline" type="text" placeholder="E-mail"></ion-input>
+
+    <ion-input class="senha" label="Senha" label-placement="floating" shape="round" fill="outline" type="password" placeholder="Senha"></ion-input>
+
+    <ion-row class="ion-justify-content-center">
+    <ion-col size="auto">
+
+
+  <ion-button class="botaologin"  (click)="fazerLogin()">Entrar</ion-button>
+
+    </ion-col>
+  </ion-row>
+<ion-item-divider class="divider"></ion-item-divider>
+<ion-row class="ion-justify-content-center">
+  <p id="text">caso não tenha conta <a [routerLink]="['/person']">Registrar-se
+
+  </a></p>
+</ion-row>
+
+
+  </ion-content>
+

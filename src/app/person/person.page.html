@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">person</ion-title>
+
+
+    </ion-toolbar>
+  </ion-header>
+  <a [routerLink]="['/login']" class="router" style="font-size: 24px;" >
+  <ion-fab slot="fixed" vertical="top" horizontal="start">
+    <ion-fab-button size="small">
+      <ion-icon name="arrow-back"></ion-icon>
+
+    </ion-fab-button>
+
+  </ion-fab>
+</a>
+
+
+  <ion-row class="ion-justify-content-center">
+    <div class="image-container">
+      <img src="assets/img/logo.png" alt="logo" class="logo">
+    </div>
+  </ion-row>
+
+
+    <ion-row class="ion-justify-content-center">
+<p class="dados" shape="round" fill="outline">Dados Pessoais</p>
+
+  <ion-input class="nome" label="nome" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Nome"></ion-input>
+
+  <ion-input class="email" label="email" label-placement="floating" shape="round" fill="outline" type="text" placeholder="E-mail"></ion-input>
+
+  <ion-input class="cpf" label="cpf" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Cpf"></ion-input>
+
+  <ion-input class="telefone" label="telefone" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Telefone"></ion-input>
+
+  <ion-input class="nascimento" label="nascimento" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Nascimenti"></ion-input>
+
+  <ion-input class="genero" label="genero" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Genero"></ion-input>
+
+    </ion-row>
+
+    <ion-row class="ion-justify-content-center">
+      <a [routerLink]="['/cep']">
+    <ion-button class="botaologin" >Proximo</ion-button>
+  </a>
+    </ion-row>
+
+</ion-content>

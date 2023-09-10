@@ -1,0 +1,78 @@
+ion-fab-button::part(native) {
+  background-color: #75A975;
+
+}
+
+.image-container{
+
+
+  width: 262px;
+  height: 231px;
+  margin-top: 60px
+
+}
+.iam {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+
+  justify-content: center;
+  border-radius: 20px;
+
+  color: black;
+  flex-shrink: 0;
+
+  width: 107px;
+  height: 35px;
+
+
+  background-color: #white;
+  fill: #white;
+  stroke-width: 1px;
+  border: 1px solid #000000;
+  padding: 10px;
+
+}
+
+
+.idoso{
+
+  width: 129px;
+height: 129px;
+flex-shrink: 0;
+border-radius: 129px;
+background:cover no-repeat;
+}
+.textidoso{
+
+
+  width: 67px;
+  height: 24px;
+  top: 609px;
+  left: 70px;
+  color: #696969;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 14%;
+
+
+}
+
+.textcuidador{
+
+  width: 67px;
+  height: 24px;
+  top: 609px;
+  left: 70px;
+  color: #696969;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 8%;
+
+}

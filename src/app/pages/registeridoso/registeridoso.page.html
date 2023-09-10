@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">registeridoso</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <a [routerLink]="['/iam']" class="router" style="font-size: 24px;" >
+    <ion-fab slot="fixed" vertical="end" horizontal="start">
+      <ion-fab-button size="small" >
+        <ion-icon name="arrow-back"></ion-icon>
+
+      </ion-fab-button>
+
+    </ion-fab>
+  </a>
+
+  <ion-row class="ion-justify-content-center">
+    <div class="image-container">
+      <img src="assets/img/logo2.png" alt="logo" class="logo">
+    </div>
+    </ion-row>
+
+    <ion-row class="ion-justify-content-center">
+
+      <p class="register" shape="round" fill="outline">Registro Idoso</p>
+
+      <ion-input class="hobbys" label="Hobbys" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Hobbys"></ion-input>
+
+      <ion-input class="familiares" label="Familiares" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Familiares"></ion-input>
+
+      <ion-input class="informacao" label="Informações Adicionais" label-placement="floating" shape="round" fill="outline" type="text" placeholder="Informações"></ion-input>
+
+      <ion-input class="senha" label="Senha" label-placement="floating" shape="round" fill="outline" type="password" placeholder="Senha"></ion-input>
+
+
+      </ion-row>
+
+      <ion-row class="ion-justify-content-center">
+        <a [routerLink]="['/cep']">
+      <ion-button class="finalizar" >Finalizar</ion-button>
+    </a>
+      </ion-row>
+
+
+</ion-content>

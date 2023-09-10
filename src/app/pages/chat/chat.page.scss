@@ -1,0 +1,48 @@
+.img{
+
+height: 55px;
+width: 55px;
+
+}
+
+ion-fab-button::part(native) {
+  background-color: #75A975;
+
+}
+#chat {
+  color: #75A975;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.text{
+
+color: #696969;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: auto;
+height: 27px;
+flex-shrink: 0;
+
+}
+
+
+.avatar-image {
+  width: 61px;
+
+  height: 61px;
+
+}
+
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
